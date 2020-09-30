@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- Table -->
+        <table class="table">
+            <caption> Users Table </caption>
+            <thead class="table-head">
+                <th data-column='name'  data-order='desc' class="table-head-users names">name</th>
+                <th data-column='user-name'  data-order='desc' class="table-head-users userNames">username</th>
+                <th data-column='email'  data-order='desc' class="table-head-users emails">email</th>
+                <th data-column='website'  data-order='desc' class="table-head-users websites">website</th>
+            </thead>
+            <tbody class='table-body'>
+
+            </tbody>
+        </table>
+
+        <!-- Modal -->
+
+        <div class="modal hide">
+            <table class="table modal-table">
+                <caption class="modal-table-caption"> detailed information </caption>
+                <thead class="modal-table-head">
+                    <th>city</th>
+                    <th>street</th>
+                    <th>suite</th>
+                    <th>phone</th>
+                    <th>company</th>
+                    <th>catchPhrase</th>
+                </thead>
+                <tbody class='modal-table-body'>
+
+                </tbody>
+
+            </table>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
